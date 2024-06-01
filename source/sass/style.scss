@@ -1,2 +1,30 @@
-@import url("base.scss");
-@import url("./blocks/main-header.scss");
+@import "fonts.scss";
+
+@import "base/base.scss";
+@import "base/visually-hidden.scss";
+
+@import "blocks/main-header.scss";
+@import "blocks/main-navigation.scss";
+@import "blocks/logo-text.scss";
+@import "blocks/logo-image.scss";
+@import "blocks/site-navigation.scss";
+@import "blocks/main-container.scss";
+@import "blocks/main-selection.scss";
+@import "blocks/main-title.scss";
+@import "blocks/purpose-list.scss";
+@import "blocks/purpose-item.scss";
+@import "blocks/purpose-title.scss";
+@import "blocks/purpose-text.scss";
+@import "blocks/section-text.scss";
+@import "blocks/purpose-link.scss";
+@import "blocks/main-instruction.scss";
+@import "blocks/main-example.scss";
+@import "blocks/main-footer.scss";
+
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
